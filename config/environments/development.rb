@@ -34,4 +34,5 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  config.s3_credentials = YAML.load_file(Rails.root.join('config', 's3.yml'))[:development]
 end
