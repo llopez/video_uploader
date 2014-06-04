@@ -40,3 +40,4 @@ gem 'spring',        group: :development
 
 gem 'paperclip', git: 'git@github.com:thoughtbot/paperclip.git'
 gem 'panda'
+gem 'aws-sdk', '~> 1.5.7'
