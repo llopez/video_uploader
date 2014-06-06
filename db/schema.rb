@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140606135711) do
+ActiveRecord::Schema.define(version: 20140606141238) do
 
   create_table "assets", force: true do |t|
     t.string   "title"
@@ -25,8 +25,8 @@ ActiveRecord::Schema.define(version: 20140606135711) do
 
   create_table "videos", force: true do |t|
     t.string   "title"
-    t.integer  "panda_id"
-    t.string   "original_file_name"
+    t.string   "panda_id"
+    t.string   "original_filename"
     t.string   "source_url"
     t.string   "extname"
     t.integer  "duration"
@@ -39,6 +39,13 @@ ActiveRecord::Schema.define(version: 20140606135711) do
     t.string   "status"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "mime_type"
+    t.integer  "video_bitrate"
+    t.integer  "audio_bitrate"
+    t.integer  "audio_channels"
+    t.integer  "audio_sample_rate"
+    t.string   "path"
+    t.string   "cloud_id"
   end
 
 end
