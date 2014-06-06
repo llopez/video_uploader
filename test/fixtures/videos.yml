@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  panda_id: 1
+  original_file_name: MyString
+  source_url: MyString
+  extname: MyString
+  duration: 1
+  audio_codec: MyString
+  video_codec: MyString
+  file_size: 1
+  width: 1
+  height: 1
+  fps: 1
+  status: MyString
+
+two:
+  title: MyString
+  panda_id: 1
+  original_file_name: MyString
+  source_url: MyString
+  extname: MyString
+  duration: 1
+  audio_codec: MyString
+  video_codec: MyString
+  file_size: 1
+  width: 1
+  height: 1
+  fps: 1
+  status: MyString
